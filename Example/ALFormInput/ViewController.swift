@@ -87,6 +87,10 @@ class ViewController: UIViewController {
 
 // MARK: - ALDatePickerDelegate'
 extension ViewController: ALDatePickerDelegate {
+    func willBeginEditing(_ view: ALDatePicker) {
+        
+    }
+    
     func didSelectDate(_ view: ALDatePicker, selectedDate: Date) {
         // You can handle selected date
     }

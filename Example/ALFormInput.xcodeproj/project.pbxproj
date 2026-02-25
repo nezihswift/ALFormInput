@@ -289,6 +289,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7J9R6P22L9;
 						LastSwiftMigration = 1140;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -607,6 +608,7 @@
 			baseConfigurationReference = 5842BECD34443B6117ADF185 /* Pods-ALFormInput_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J9R6P22L9;
 				INFOPLIST_FILE = ALFormInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -622,6 +624,7 @@
 			baseConfigurationReference = 71DF03511248AA8FC1EC500A /* Pods-ALFormInput_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J9R6P22L9;
 				INFOPLIST_FILE = ALFormInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
