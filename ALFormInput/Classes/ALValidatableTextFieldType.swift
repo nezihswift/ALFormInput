@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SwiftValidatorNew
 
 public enum ALValidatableTextFieldType: String {
     case email = "Email"

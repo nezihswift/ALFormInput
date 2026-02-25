@@ -1,5 +1,6 @@
 use_frameworks!
 inhibit_all_warnings!
+platform :ios, '11.3'
 
 target 'ALFormInput_Example' do
   pod 'ALFormInput', :path => '../'

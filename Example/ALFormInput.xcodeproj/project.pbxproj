@@ -32,6 +32,19 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6A59511E2E5D99881B75E6DA /* Pods_ALFormInput_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EA269647BF0BC5D94ABE15 /* Pods_ALFormInput_Example.framework */; };
+		9D866B1F2F4FBFDD00155FF1 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B1E2F4FBFDD00155FF1 /* Validator.swift */; };
+		9D866B212F4FBFDD00155FF1 /* ValidationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B202F4FBFDD00155FF1 /* ValidationDelegate.swift */; };
+		9D866B232F4FBFDD00155FF1 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B222F4FBFDD00155FF1 /* ValidationError.swift */; };
+		9D866B252F4FBFDE00155FF1 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B242F4FBFDE00155FF1 /* ValidationRule.swift */; };
+		9D866B272F4FBFDE00155FF1 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B262F4FBFDE00155FF1 /* Validatable.swift */; };
+		9D866B292F4FBFDF00155FF1 /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B282F4FBFDF00155FF1 /* ValidatorDictionary.swift */; };
+		9D866B2B2F4FC00D00155FF1 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B2A2F4FC00D00155FF1 /* Rule.swift */; };
+		9D866B2D2F4FC00D00155FF1 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B2C2F4FC00D00155FF1 /* RegexRule.swift */; };
+		9D866B2F2F4FC00D00155FF1 /* EmailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B2E2F4FC00D00155FF1 /* EmailRule.swift */; };
+		9D866B312F4FC00D00155FF1 /* RequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B302F4FC00D00155FF1 /* RequiredRule.swift */; };
+		9D866B332F4FC00E00155FF1 /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B322F4FC00E00155FF1 /* MinLengthRule.swift */; };
+		9D866B352F4FC00E00155FF1 /* ExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B342F4FC00E00155FF1 /* ExactLengthRule.swift */; };
+		9D866B372F4FC00F00155FF1 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B362F4FC00F00155FF1 /* PasswordRule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +91,19 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		71DF03511248AA8FC1EC500A /* Pods-ALFormInput_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFormInput_Example.release.xcconfig"; path = "Target Support Files/Pods-ALFormInput_Example/Pods-ALFormInput_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8EA9492C336DDDA647E3BF7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9D866B1E2F4FBFDD00155FF1 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		9D866B202F4FBFDD00155FF1 /* ValidationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationDelegate.swift; sourceTree = "<group>"; };
+		9D866B222F4FBFDD00155FF1 /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		9D866B242F4FBFDE00155FF1 /* ValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
+		9D866B262F4FBFDE00155FF1 /* Validatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
+		9D866B282F4FBFDF00155FF1 /* ValidatorDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorDictionary.swift; sourceTree = "<group>"; };
+		9D866B2A2F4FC00D00155FF1 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		9D866B2C2F4FC00D00155FF1 /* RegexRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexRule.swift; sourceTree = "<group>"; };
+		9D866B2E2F4FC00D00155FF1 /* EmailRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailRule.swift; sourceTree = "<group>"; };
+		9D866B302F4FC00D00155FF1 /* RequiredRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequiredRule.swift; sourceTree = "<group>"; };
+		9D866B322F4FC00E00155FF1 /* MinLengthRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinLengthRule.swift; sourceTree = "<group>"; };
+		9D866B342F4FC00E00155FF1 /* ExactLengthRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExactLengthRule.swift; sourceTree = "<group>"; };
+		9D866B362F4FC00F00155FF1 /* PasswordRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRule.swift; sourceTree = "<group>"; };
 		DA4F94B439777C6310393D26 /* Pods-ALFormInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFormInput_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4EA269647BF0BC5D94ABE15 /* Pods_ALFormInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALFormInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F937D08347C2B00064EAA9D3 /* ALFormInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ALFormInput.podspec; path = ../ALFormInput.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -116,6 +142,7 @@
 				35DBD22424459AE3008A8144 /* ALValidatableConfig.swift */,
 				35ACD4922446016D0087512C /* ALMonthAndYearPicker.swift */,
 				359DA55624472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift */,
+				9D866B1B2F4FBFA300155FF1 /* SwiftValidatorNew */,
 			);
 			name = Classes;
 			path = ../ALFormInput/Classes;
@@ -224,6 +251,42 @@
 				8EA9492C336DDDA647E3BF7A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9D866B1B2F4FBFA300155FF1 /* SwiftValidatorNew */ = {
+			isa = PBXGroup;
+			children = (
+				9D866B1C2F4FBFA300155FF1 /* Core */,
+				9D866B1D2F4FBFA300155FF1 /* Rules */,
+			);
+			path = SwiftValidatorNew;
+			sourceTree = "<group>";
+		};
+		9D866B1C2F4FBFA300155FF1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9D866B1E2F4FBFDD00155FF1 /* Validator.swift */,
+				9D866B202F4FBFDD00155FF1 /* ValidationDelegate.swift */,
+				9D866B222F4FBFDD00155FF1 /* ValidationError.swift */,
+				9D866B242F4FBFDE00155FF1 /* ValidationRule.swift */,
+				9D866B262F4FBFDE00155FF1 /* Validatable.swift */,
+				9D866B282F4FBFDF00155FF1 /* ValidatorDictionary.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9D866B1D2F4FBFA300155FF1 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				9D866B2A2F4FC00D00155FF1 /* Rule.swift */,
+				9D866B2C2F4FC00D00155FF1 /* RegexRule.swift */,
+				9D866B2E2F4FC00D00155FF1 /* EmailRule.swift */,
+				9D866B302F4FC00D00155FF1 /* RequiredRule.swift */,
+				9D866B322F4FC00E00155FF1 /* MinLengthRule.swift */,
+				9D866B342F4FC00E00155FF1 /* ExactLengthRule.swift */,
+				9D866B362F4FC00F00155FF1 /* PasswordRule.swift */,
+			);
+			path = Rules;
 			sourceTree = "<group>";
 		};
 		C6100530DDDA0956CE9E82D6 /* Frameworks */ = {
@@ -375,7 +438,6 @@
 				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftValidatorNew/SwiftValidatorNew.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -385,7 +447,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidatorNew.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -439,24 +500,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D866B372F4FC00F00155FF1 /* PasswordRule.swift in Sources */,
 				35ACD4902445E32A0087512C /* ALStringPicker.swift in Sources */,
 				35DBD22E24459AE3008A8144 /* AL+UITextField.swift in Sources */,
+				9D866B232F4FBFDD00155FF1 /* ValidationError.swift in Sources */,
 				35DBD24A24459AE3008A8144 /* ALValidatableConfig.swift in Sources */,
 				35DBD24624459AE3008A8144 /* TCIdentityRule.swift in Sources */,
+				9D866B352F4FC00E00155FF1 /* ExactLengthRule.swift in Sources */,
 				35365FA5244DB5A2001C18C9 /* AL+Collection.swift in Sources */,
+				9D866B2B2F4FC00D00155FF1 /* Rule.swift in Sources */,
+				9D866B212F4FBFDD00155FF1 /* ValidationDelegate.swift in Sources */,
+				9D866B272F4FBFDE00155FF1 /* Validatable.swift in Sources */,
+				9D866B2D2F4FC00D00155FF1 /* RegexRule.swift in Sources */,
+				9D866B312F4FC00D00155FF1 /* RequiredRule.swift in Sources */,
+				9D866B292F4FBFDF00155FF1 /* ValidatorDictionary.swift in Sources */,
 				35DBD22D24459AE3008A8144 /* AL+String.swift in Sources */,
 				35DBD23B24459AE3008A8144 /* ReplacedExactLengthRule.swift in Sources */,
 				35DBD22524459AE3008A8144 /* ALValidatableTextFieldType.swift in Sources */,
+				9D866B332F4FC00E00155FF1 /* MinLengthRule.swift in Sources */,
 				35DBD23624459AE3008A8144 /* CardNumberRule.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				35ACD48E2445D8A70087512C /* AL+ActionSheetPicker.swift in Sources */,
 				35ACD4932446016D0087512C /* ALMonthAndYearPicker.swift in Sources */,
+				9D866B1F2F4FBFDD00155FF1 /* Validator.swift in Sources */,
 				35DBD22624459AE3008A8144 /* ALValidatableTextField.swift in Sources */,
 				35DBD22F24459AE3008A8144 /* CustomPhoneNumberRule.swift in Sources */,
 				35DBD24224459AE3008A8144 /* CreditCardType.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				359DA55724472FE400B1F64C /* ALValidatableTextFieldWithIcon.swift in Sources */,
+				9D866B252F4FBFDE00155FF1 /* ValidationRule.swift in Sources */,
 				35ACD48C2445D3180087512C /* ALDatePicker.swift in Sources */,
+				9D866B2F2F4FC00D00155FF1 /* EmailRule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

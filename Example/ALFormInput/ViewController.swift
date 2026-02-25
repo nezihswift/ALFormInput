@@ -8,7 +8,6 @@
 
 import UIKit
 import ALFormInput
-import SwiftValidatorNew
 import AlExtensions
 import FontAwesome_swift
 

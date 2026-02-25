@@ -5,7 +5,8 @@
 //  Copyright (c) 2014 Byron Mackay. All rights reserved.
 //
 
-import SwiftValidatorNew
+import Foundation
+
 /**
  `PhoneNumberRule` is a subclass of Rule that defines how a phone number is validated.
  */

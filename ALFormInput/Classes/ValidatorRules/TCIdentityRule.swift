@@ -6,7 +6,7 @@
 //  Copyright © 2020 AppLogist. All rights reserved.
 //
 
-import SwiftValidatorNew
+import Foundation
 
 /**
  The `TCIdentityRule` is a subclass of Rule that defines how a Turkish Identity number is validated.

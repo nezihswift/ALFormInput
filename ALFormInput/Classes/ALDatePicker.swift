@@ -6,7 +6,6 @@
 //  Copyright © 2020 CocoaPods. All rights reserved.
 //
 
-import SwiftValidatorNew
 import ActionSheetPicker_3_0
 import AlExtensions
 

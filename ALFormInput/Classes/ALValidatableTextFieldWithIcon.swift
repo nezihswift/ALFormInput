@@ -9,7 +9,6 @@
 import UIKit
 import SkyFloatingLabelTextField
 import PhoneNumberKit
-import SwiftValidatorNew
 import ActionSheetPicker_3_0
 
 public class ALValidatableTextFieldWithIcon: SkyFloatingLabelTextFieldWithIcon {

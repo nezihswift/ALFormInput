@@ -10,7 +10,7 @@ import Foundation
 
 public struct ValidatorDictionary<T> : Sequence {
     
-    private var innerDictionary: [ObjectIdentifier: T] = [:];
+    private var innerDictionary: [ObjectIdentifier: T] = [:]
     
     public subscript(key: ValidatableField?) -> T? {
         get {

@@ -26,9 +26,6 @@
     "PhoneNumberKit": [
       "~> 3.1"
     ],
-    "SwiftValidatorNew": [
-      "~> 4.2.0"
-    ],
     "ActionSheetPicker-3.0": [
       "2.4.2"
     ],
