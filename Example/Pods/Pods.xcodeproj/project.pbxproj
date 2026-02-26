@@ -94,6 +94,7 @@
 		9B7D123BAA2651883D70ED870664587C /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AF44B7A5789596FBA483F4C18DC652 /* SkyFloatingLabelTextField-dummy.m */; };
 		9BBF80A73AAE9FAD267CEB1F10199E0B /* AL+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B16C6D815E74063F20FBAFDFD33A7 /* AL+Date.swift */; };
 		9C65E192842E4B62CDAD7A2B1D968BA1 /* FontAwesomeImageRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF786D38D9AB3B7C6469C10C50396180 /* FontAwesomeImageRepresentable.swift */; };
+		9D5DEEAC2F4FCEE7005B356F /* ConfirmationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DEEAB2F4FCEE7005B356F /* ConfirmationRule.swift */; };
 		9E01A1C8A65977BFCA05CE327E629C3E /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C78BC23B155DABEDD2A6A6F673DCA46E /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F8BAF51A0881537BDC1E6709FE18510 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6D200C5C400764D526280A42CD0037 /* FBSnapshotTestCase-dummy.m */; };
 		A2E6B1AD591694D48C3207A972B18B28 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2393D19114DA0A5C0B9F5A2BC3171E51 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -377,6 +378,7 @@
 		9A4BAE8AC9E86295CD73B07CDCD1F8FF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		9BC36BBB35FB237A8109C6F05E1C7864 /* MinLengthRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MinLengthRule.swift; sourceTree = "<group>"; };
 		9D5DD63C9ACA5460DFFD624835C18C6B /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		9D5DEEAB2F4FCEE7005B356F /* ConfirmationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationRule.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F180937BAEBF8FC79FE50C387D936C5 /* AL+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AL+UIColor.swift"; path = "AlExtensions/Classes/AL+UIColor.swift"; sourceTree = "<group>"; };
 		9F2AA24277AF3356363A402D1F886099 /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
@@ -577,6 +579,7 @@
 		0FC100071A406ECA69265C881E846034 /* ValidatorRules */ = {
 			isa = PBXGroup;
 			children = (
+				9D5DEEAB2F4FCEE7005B356F /* ConfirmationRule.swift */,
 				6218B4C7E08CFE1B44D6EB7F416727DD /* CardNumberRule.swift */,
 				74CCD69C2C66C21BB50B0C1A5FA14264 /* CreditCardType.swift */,
 				FD87B842F067144D7CF5B8C2A118E532 /* CustomPhoneNumberRule.swift */,
@@ -1524,6 +1527,7 @@
 				988682D49CA490E09B8AABA9B515270E /* EmailRule.swift in Sources */,
 				002519432A8AD5624F0600B88E60807B /* ExactLengthRule.swift in Sources */,
 				3AB151E25B61AA0986D0CF7992A91513 /* MinLengthRule.swift in Sources */,
+				9D5DEEAC2F4FCEE7005B356F /* ConfirmationRule.swift in Sources */,
 				83C37D44936428421D19AB3083928488 /* PasswordRule.swift in Sources */,
 				8F9BBF552AE17C10EB190BDA5462528C /* PhoneNumberRule.swift in Sources */,
 				EA6DDB175370A1E81257FAAB29C35AF4 /* RegexRule.swift in Sources */,
