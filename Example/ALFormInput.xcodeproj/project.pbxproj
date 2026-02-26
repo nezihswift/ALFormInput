@@ -46,6 +46,7 @@
 		9D866B352F4FC00E00155FF1 /* ExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B342F4FC00E00155FF1 /* ExactLengthRule.swift */; };
 		9D866B372F4FC00F00155FF1 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D866B362F4FC00F00155FF1 /* PasswordRule.swift */; };
 		9DA40D782F4FCFB000F5A49D /* ConfirmationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA40D772F4FCFB000F5A49D /* ConfirmationRule.swift */; };
+		9DA40D7A2F4FD28800F5A49D /* ConfirmationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA40D792F4FD28800F5A49D /* ConfirmationRule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		9D866B342F4FC00E00155FF1 /* ExactLengthRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExactLengthRule.swift; sourceTree = "<group>"; };
 		9D866B362F4FC00F00155FF1 /* PasswordRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordRule.swift; sourceTree = "<group>"; };
 		9DA40D772F4FCFB000F5A49D /* ConfirmationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationRule.swift; sourceTree = "<group>"; };
+		9DA40D792F4FD28800F5A49D /* ConfirmationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationRule.swift; sourceTree = "<group>"; };
 		DA4F94B439777C6310393D26 /* Pods-ALFormInput_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALFormInput_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ALFormInput_Tests/Pods-ALFormInput_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4EA269647BF0BC5D94ABE15 /* Pods_ALFormInput_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALFormInput_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F937D08347C2B00064EAA9D3 /* ALFormInput.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ALFormInput.podspec; path = ../ALFormInput.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -288,6 +290,7 @@
 				9D866B322F4FC00E00155FF1 /* MinLengthRule.swift */,
 				9D866B342F4FC00E00155FF1 /* ExactLengthRule.swift */,
 				9D866B362F4FC00F00155FF1 /* PasswordRule.swift */,
+				9DA40D792F4FD28800F5A49D /* ConfirmationRule.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 				9DA40D782F4FCFB000F5A49D /* ConfirmationRule.swift in Sources */,
 				35DBD23624459AE3008A8144 /* CardNumberRule.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9DA40D7A2F4FD28800F5A49D /* ConfirmationRule.swift in Sources */,
 				35ACD48E2445D8A70087512C /* AL+ActionSheetPicker.swift in Sources */,
 				35ACD4932446016D0087512C /* ALMonthAndYearPicker.swift in Sources */,
 				9D866B1F2F4FBFDD00155FF1 /* Validator.swift in Sources */,
